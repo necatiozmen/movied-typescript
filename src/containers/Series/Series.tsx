@@ -11,7 +11,6 @@ interface Props {
     changeHeaderTitle: (data : string) => any;
 }
 
-
 class Series extends React.Component<Props, {}> {
   public componentDidMount() {
     this.props.getSeries();
@@ -39,6 +38,5 @@ const mapDispatchToProps = (dispatch: any) => ({
   getSeries: () => dispatch(getSeries()),
   changeHeaderTitle: (data: string) => dispatch(changeHeaderTitle(data)),
 });
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(Series);

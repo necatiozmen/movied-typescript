@@ -70,8 +70,8 @@
     margin-bottom: 30px;
   }
 
-  .footer-icons-app > div {
-    width: 125px;
+  .footer-icons-app > img {
+    margin-bottom: 10px;
   }
 }
 
@@ -111,8 +111,8 @@
     justify-content: center;
   }
 
-  .footer-icons-app > div {
-    margin-bottom: 5px;
+  .footer-icons-app > img {
+    margin-bottom: 10px;
   }
 }
 

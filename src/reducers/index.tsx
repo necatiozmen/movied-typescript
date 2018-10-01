@@ -5,9 +5,9 @@ import series from './series';
 import headerType from './headerType';
 
  interface State {
-    movieList: MovieList[];
-    serieList: SerieList[];
-    headerType: HeaderType;
+   movieList: MovieList[];
+   serieList: SerieList[];
+   headerType: HeaderType;
 }
 
 export default combineReducers<State>({

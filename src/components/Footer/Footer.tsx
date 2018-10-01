@@ -1,14 +1,13 @@
 import * as React from 'react';
 import './Footer.css';
-import Icon from '../Icons';
+import facebook from '../../assets/facebook.svg';
+import instagram from '../../assets/instagram.svg';
+import twitter from '../../assets/twitter.svg';
+import appstore from '../../assets/app-store.svg';
+import playstore from '../../assets/play-store.svg';
+import windowstore from '../../assets/windows-store.svg';
 
-interface Props {
-  name: string,
-  width: object,
-  height: object
-}
-
-const Footer = ({}: Props) => {
+const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-inner-container">
@@ -32,14 +31,14 @@ const Footer = ({}: Props) => {
         </div>
         <div className="footer-contact-container">
           <div className="footer-icons">
-            <Icon name="facebook" width={50} height={25} />
-            <Icon name="twitter" width={50} height={25} />
-            <Icon name="instagram" width={50} height={25} />
+            <img src={facebook} alt="logo" />
+            <img src={twitter} alt="logo" />
+            <img src={instagram} alt="logo" />
           </div>
           <div className="footer-icons-app">
-            <Icon name="appstore" width={140} height={35} />
-            <Icon name="playstore" width={140} height={35} />
-            <Icon name="windowstore" width={120} height={35} />
+            <img src={appstore} alt="logo" />
+            <img src={playstore} alt="logo" />
+            <img src={windowstore} alt="logo" />
           </div>
         </div>
       </div>

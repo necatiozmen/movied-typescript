@@ -34,5 +34,4 @@ const mapStateToProps = (state:any) => ({
   headerTitle: state.headerType.headerTitle,
 });
 
-
 export default connect(mapStateToProps, null)(Header);
